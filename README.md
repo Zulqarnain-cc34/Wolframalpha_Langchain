@@ -36,27 +36,25 @@ Wolfram Alpha tool wrapper is a Python tool that provides an extended wrapper fo
   <img src="./assets/wolfram.png">
 </div>
 
-### Usage
+In case you want to use Docker. To run use `docker build .`
 
-To retrieve plot images:
+### Query
+
+To Change the `test.py` file and run using python.
 
 ```python
-wrapper = ExtendedWolframAlphaAPIWrapper()
-plots = wrapper.run_plots("Your query")
-print(plots)
 
-To get step-by-step solutions:
+url = "http://172.17.0.2:5000/prompt"
 
-python
+headers = {
+    'Content-Type': 'application/json',
+    'API-KEY': 'API-KEY'
+}
 
-wrapper = ExtendedWolframAlphaAPIWrapper()
-solutions = wrapper.run_step("Your query")
-print(solutions)
+data = {'prompt': 'Paste prompt here'}
 
-Error Handling
+response = requests.post(url, headers=headers, json=data)
 
-    If an error occurs during the API request, an error message will be returned.
+print(response.text)
 
-Notes
-
-    The Wolfram Alpha App ID is required to use this tool.
+```
