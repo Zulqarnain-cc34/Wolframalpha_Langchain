@@ -17,9 +17,9 @@
 </div>
 
 
-# WolframAlphaAPIWrapper
+# Wolfram Alpha Wrapper
 
-WolframAlphaAPIWrapper is a Python tool that provides an extended wrapper for Wolfram Alpha API. It allows you to retrieve plot images and step-by-step solutions for a given query.
+Wolfram Alpha tool wrapper is a Python tool that provides an extended wrapper for Wolfram Alpha API. It allows you to retrieve plot images and step-by-step solutions for a given query.
 
 ### Features
 
@@ -30,6 +30,7 @@ WolframAlphaAPIWrapper is a Python tool that provides an extended wrapper for Wo
 
 1. Obtain a Wolfram Alpha App ID.
 2. Set the `WOLFRAM_ALPHA_APPID` environment variable with your App ID.
+3. Set the `SERPAPI_API_KEY` environment variable with your App ID.
 
 <div>
   <img src="./assets/wolfram.png">
@@ -58,7 +59,4 @@ Error Handling
 
 Notes
 
-    Ensure you have a stable internet connection to make successful API requests.
     The Wolfram Alpha App ID is required to use this tool.
-
-This Markdown code block provides the feature points for the README.md file. You can copy and paste it into your README.md file, making any necessary adjustments or additions.
