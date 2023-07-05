@@ -1,19 +1,19 @@
-Api Documentation:
+<div align="center"><p>
+    <a href="https://github.com/Zulqarnain-cc34/Wolframalpha_Langchain/releases/latest">
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/Zulqarnain-cc34/Wolframalpha_Langchain?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver" />
+    </a>
+    <a href="https://github.com/Zulqarnain-cc34/Wolframalpha_Langchain/pulse">
+      <img alt="Last commit" src="https://img.shields.io/github/last-commit/Zulqarnain-cc34/Wolframalpha_Langchain?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
+    </a>
+    <a href="https://github.com/Zulqarnain-cc34/Wolframalpha_Langchain/blob/main/LICENSE">
+      <img alt="License" src="https://img.shields.io/github/license/Zulqarnain-cc34/Wolframalpha_Langchain?style=for-the-badge&logo=starship&color=ee999f&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Zulqarnain-cc34/Wolframalpha_Langchain/stargazers">
+      <img alt="Stars" src="https://img.shields.io/github/stars/Zulqarnain-cc34/Wolframalpha_Langchain?style=for-the-badge&logo=starship&color=c69ff5&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Zulqarnain-cc34/Wolframalpha_Langchain">
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/Zulqarnain-cc34/Wolframalpha_Langchain?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+</div>
 
-Endpoint: /prompt
-
-Method: POST
-
-Input:
-
-    prompt: A string representing the prompt text to be used to generate text. Default is "How's the weather?"
-    API-KEY: A header field containing the API Key provided by OpenAI to access the language model.
-
-Output:
-
-    A string of generated text based on the prompt and API Key.
-    401 status code with message "API Key is missing" if the API-KEY header field is not provided.
-    500 status code with message "Server Internal error" if there is an error processing the request.
-
-Description:
-This endpoint is used to generate text using OpenAI's language model. The endpoint takes a prompt and API Key as input and returns the generated text as output. The endpoint requires an API Key to be provided in the API-KEY header field to access the language model. If the API Key is not provided, the endpoint returns a 401 status code with a message of "API Key is missing". If there is an error processing the request, the endpoint returns a 500 status code with a message of "Server Internal error".
+This project is an Integration of wolfram alpha in langchain library
