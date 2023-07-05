@@ -16,4 +16,49 @@
     </a>
 </div>
 
-This project is an Integration of wolfram alpha in langchain library
+
+# WolframAlphaAPIWrapper
+
+WolframAlphaAPIWrapper is a Python tool that provides an extended wrapper for Wolfram Alpha API. It allows you to retrieve plot images and step-by-step solutions for a given query.
+
+### Features
+
+- **Plot Retrieval**: Obtains url of plot images for a given query.
+- **Step-by-Step Solutions**: Get step-by-step solutions for a query.
+
+### Getting Started
+
+1. Obtain a Wolfram Alpha App ID.
+2. Set the `WOLFRAM_ALPHA_APPID` environment variable with your App ID.
+
+<div>
+  <img src="./assets/wolfram.png">
+</div>
+
+### Usage
+
+To retrieve plot images:
+
+```python
+wrapper = ExtendedWolframAlphaAPIWrapper()
+plots = wrapper.run_plots("Your query")
+print(plots)
+
+To get step-by-step solutions:
+
+python
+
+wrapper = ExtendedWolframAlphaAPIWrapper()
+solutions = wrapper.run_step("Your query")
+print(solutions)
+
+Error Handling
+
+    If an error occurs during the API request, an error message will be returned.
+
+Notes
+
+    Ensure you have a stable internet connection to make successful API requests.
+    The Wolfram Alpha App ID is required to use this tool.
+
+This Markdown code block provides the feature points for the README.md file. You can copy and paste it into your README.md file, making any necessary adjustments or additions.

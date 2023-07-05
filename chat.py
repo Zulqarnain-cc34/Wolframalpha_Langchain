@@ -43,10 +43,11 @@ PROMPT_TEMPLATE = PromptTemplate(
     {translate_to}{literary_style}the following: \n{original_words}\n""",
 )
 
-os.environ[
-    "SERPAPI_API_KEY"] = '543ba6444cbd6fa447a71e9d6cf9d36049c945fa8b3a6a590010abce5c749a1b'
-os.environ['WOLFRAM_ALPHA_APPID'] = '44ERXQ-P43EQQTLPA'
+os.environ["SERPAPI_API_KEY"] = 'SERPAPI_API_KEY'
+os.environ['WOLFRAM_ALPHA_APPID'] = 'WOLFRAM_ALPHA_APPID'
 
+# 543ba6444cbd6fa447a71e9d6cf9d36049c945fa8b3a6a590010abce5c749a1b
+# 44ERXQ-P43EQQTLPA
 # os.environ['GOOGLE_API_KEY'] = ''
 
 
