@@ -32,6 +32,8 @@ Wolfram Alpha tool wrapper is a Python tool that provides an extended wrapper fo
 2. Set the `WOLFRAM_ALPHA_APPID` environment variable with your App ID.
 3. Set the `SERPAPI_API_KEY` environment variable with your App ID.
 
+To change it in `chat.py`.
+
 <div>
   <img src="./assets/wolfram.png">
 </div>
@@ -40,7 +42,7 @@ In case you want to use Docker. To run use `docker build .`
 
 ### Query
 
-To Change the `test.py` file and run using python.
+To change the `test.py` file and run using python.
 
 ```python
 
